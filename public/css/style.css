@@ -68,9 +68,11 @@ section{
 
 .galeria img{
   max-width: 400px;
-  padding: 2rem;
+  /*padding: 2rem;*/
+  padding: 1rem;
   box-shadow: 5px 5px 10px black;
   border-radius: 5% 5% 0 0;
+  margin: 1em;
 }
 
 ul li{
@@ -102,4 +104,15 @@ ol li{
 .section-texto a {
   color: #4976E6;
   text-decoration: none;
+}
+
+@media(max-width:960px) {
+  .galeria img {
+    max-width: 80%;
+    /*padding: 2rem;*/
+    padding: 1rem;
+    box-shadow: 2px black;
+    border-radius: 5%;
+    margin: 1em;
+  }
 }
