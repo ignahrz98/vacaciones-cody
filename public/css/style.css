@@ -115,4 +115,12 @@ ol li{
     border-radius: 5%;
     margin: 1em;
   }
+
+  .fotos img{
+    /*max-width: 450px;*/
+    min-width: 90%;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 }
