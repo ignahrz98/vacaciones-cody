@@ -12,6 +12,22 @@ html {
   font-family: 'Rubik', sans-serif;
 }
 
+.background-gradient {
+  background: #4db7f0;
+  background: linear-gradient(0deg,#4db7f0 0%, #4976e6 80%);
+  background: -webkit-linear-gradient(0deg,#4db7f0 0%, #4976e6 80%);
+  background: -moz-linear-gradient(0deg,#4db7f0 0%, #4976e6 80%);
+}
+
+.background-gradient .h2-gradient {
+  color: white;
+}
+
+.background-gradient header,
+.background-gradient header a {
+  color: white;
+}
+
 nav{
   /*background-color: aliceblue;*/
   /*background-color: #4DB7F0;*/
@@ -33,11 +49,22 @@ main,
   margin:0 auto;
 }
 
-.menu-div {
+.menu-div,
+.navbar {
   background-color: #4DB7F0;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
-  box-shadow: 0 0 10px 0 black;
+  font-weight: 600;
+  /*box-shadow: 0 10px 10px 0 gray;*/
+}
+
+.navbar a {
+  color: white;
+}
+
+header .cover h1,
+header .cover p {
+  color: white;
 }
 
 section{
@@ -49,15 +76,16 @@ section{
   background-color: #4976E6;
   color: white;
   /*max-width: 200px;*/
-  max-width: 300px;
-  display: inline-block;
-  box-shadow: 5px 5px 10px black;
+  /*min-height: 100px;*/
+  /*display: inline-block;*/
+  box-shadow: 5px 5px 10px white;
+  padding: 1em 0 0 0;
 }
 
 .fotos img{
   /*max-width: 450px;*/
-  max-width: 200px;
-  display: inline-block;
+  /*max-width: 200px;*/
+  /*display: inline-block;*/
 }
 
 .galeria{
@@ -80,7 +108,7 @@ ul li{
 }
 
 ul li::marker {
-  content: "🚀";
+  /*content: "🚀";*/
 }
 
 ol li{
@@ -98,12 +126,20 @@ ol li{
   margin-top: 4em;
   margin-bottom: 5em;
   font-weight: 300;
-  font-size: 1.4em;
+  font-size: 1.1em;
 }
 
 .section-texto a {
   color: #4976E6;
   text-decoration: none;
+}
+
+.cover {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
 }
 
 @media(max-width:960px) {
