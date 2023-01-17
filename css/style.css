@@ -72,14 +72,13 @@ section{
 }
 
 .cursos div{
-  /*background-color: black;*/
   background-color: #4976E6;
   color: white;
-  /*max-width: 200px;*/
-  /*min-height: 100px;*/
   /*display: inline-block;*/
   box-shadow: 5px 5px 10px white;
-  padding: 1em 0 0 0;
+  padding: 1em;
+  border-radius: 10px;
+  margin: 20px 0 20px 0;
 }
 
 .fotos img{
@@ -174,7 +173,7 @@ ol li{
   }
 
   .cursos div {
-    width: 80%;
+    width: 90%;
     margin-bottom: 1em;
   }
 
